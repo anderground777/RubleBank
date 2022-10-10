@@ -1,0 +1,369 @@
+hr {
+    border-top: 1px solid #DEDEDE;
+}
+.hr-shadow {
+    padding: 0;
+	height: 10px;
+	border: none;
+	border-top: 1px solid #DEDEDE;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+    
+}
+
+body {
+	margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+    list-style: none;
+}
+
+
+
+.container {
+	/**width: 1140px;**/
+	min-height: 100vh;
+	margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 1140px;
+    height: 40px;
+    margin: auto;   
+
+}
+
+.logo img {
+    width: 159px;
+    height: 26px;
+    
+}
+
+
+.u-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 110%;
+    width: 1140px;
+    margin: auto;
+    color: #424242;
+}
+
+.u-sub-menu {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.u-menu li {
+    padding: 15px;
+}
+.u-menu-left-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+
+.u-menu-right-list {
+    display: flex;
+    
+}
+
+.main-menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    height: 50px;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 110%;
+    width: 1140px;
+    margin: auto;
+    color: #424242;
+}
+
+a {
+    text-decoration: none;
+    color: #424242
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.blue-text {
+    color: #3A95FF;
+    
+}
+
+.main-banner {
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    margin: auto;
+}
+
+.credit {
+    width: 1140px;
+    margin: auto;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 110%;
+    color: #212121;
+}
+
+h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    color: #212121;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 130%;
+    color: #212121;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+.blue-btn {
+    display: inline-block;
+    background: #3A95FF; 
+    color: #fff;
+    text-align: center;
+    border-radius: 3px; /* Скругляем уголки */
+    line-height: 3;
+    width: 200px; 
+    
+    
+}
+
+.white-btn {   
+    display: inline-block;
+    background: #fff; 
+    color: #3A95FF;
+    text-align: center;
+    border: #3A95FF solid 0.5px;
+    border-radius: 3px; /* Скругляем уголки */
+    line-height: 3;
+    width: 200px; 
+    margin-left: 37px;
+}
+
+.item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+    
+}
+
+.best-offer {
+    width: 1140px;
+    margin: auto;
+}
+
+.best-offer-item {
+    display: flex;
+    justify-content: space-between;
+    width: 555px;
+    height: 300px;
+    background: #EFF2F5;
+    border-radius: 8px;
+    margin-top: 62px;
+
+    
+}
+
+.text-item {
+    padding: 15px;
+}
+
+.cards {
+    
+    margin: auto;
+    margin-top: 110px;
+    padding: 137px;
+    
+    background-color: #EFF2F5;
+}
+
+.cards-container {
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.card-60days {
+    display: flex;
+    flex-direction: column;
+    
+    width: 750px;
+    height: 500px;
+    background-color: #E0E5EA;
+    box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25), 5px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    
+}
+
+.card-60days img {
+    width: 262px;
+    height: 250px;
+}   
+
+.cards-txt-pic {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 99px;
+    margin-top: 34px;
+    
+}    
+
+.cards-txt {
+   display: flex;
+   flex-direction: column;
+   margin-left: 99px;
+   margin-right: 134px;
+   
+     
+}
+
+.cards-b-txt {
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.cards-b-txt p {
+    
+    border-bottom: #212121;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 0;    
+    color: #212121;
+    border-bottom: 1px solid #3A95FF;
+    width: 157px;
+    text-align: center;
+}
+
+.cards-s-txt {
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+}
+
+.cards-s-txt p {
+    
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 0;
+    color: #424242;
+    width: 157px;
+    text-align: center;
+    
+}
+
+.cards-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+
+.credit-cards, .debet-cards {
+    display: flex;
+    justify-content: space-between;
+    width: 360px;
+    height: 235px;
+    background: #F7F7F7;
+    box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25), 5px 5px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border-bottom: 8px solid #3A95FF;
+    
+    
+    
+}
+
+.credit-cards h3, .debet-cards h3 {
+    margin-left: 34px;
+}
+
+.credit-cards a, .debet-cards a {
+    margin-right: 34px;
+    margin-bottom: 29px;
+    align-self: flex-end;
+}
+.cards-btn {
+    margin-left: 99px;
+    margin-bottom: 42px;
+}
+
+.how-get-card-container {
+    width: 1140px;
+    height: 460px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.how-get-card-block {
+    display: flex;
+    
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 70px;
+    
+}
+
+.how-get-card-bracket {
+    align-self: center;
+}
+
+.how-get-card-p {
+    text-align: center;
+}
+
+footer {       
+    background: #EFF2F5;
+    flex-basis: 160px;
+   
+}
+
+.footer-container {
+    margin: auto;
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+   
+}
